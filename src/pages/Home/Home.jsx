@@ -1,90 +1,49 @@
-
+import BannerProps from "../../components/props/BannerProps"
+import blogBannerImage from '../../assets/homepage/blog-banner-image.png'; // Import the image
 
 const Home = () => {
     return (
         <div>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
+            <BannerProps
+                title="Welcome to Our Website"
+                subtitle="We are glad to have you here."
+                backgroundImage={blogBannerImage} // Use the imported image
+            />
+
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
+            <div>home</div>
         </div>
     )
 }
 
-export default Home
+export default Home;
